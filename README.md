@@ -1,4 +1,4 @@
-# python-flask-docker ml-res-api
+# python-flask-docker ml-rest-api
 Итоговый проект курса "Машинное обучение в бизнесе"
 
 Цель:
@@ -21,9 +21,13 @@ API: flask
 Модель: logreg
 
 ### Структура репозитория:
+
 /app - приложение с моделью (api-server на flask, порт 8180)
+
 /app/front - простое front приложение (flask, port 8181)
+
 /data_example - пример датасета на котором проводилось обучение модели
+
 /jupiter - тетрадка с обучением и оценкой качества модели
 
 ### Формат api:
