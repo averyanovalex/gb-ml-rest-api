@@ -1,0 +1,2 @@
+data_example downloaded from here:
+https://www.kaggle.com/blackmoon/russian-language-toxic-comments
