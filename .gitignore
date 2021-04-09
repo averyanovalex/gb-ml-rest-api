@@ -1,6 +1,6 @@
 */.idea
 app/app.log
-app/models/*
+app/models/logreg_model.dill
 */*/__pycache__
 app/venv*
 */.ipynb_checkpoints/*

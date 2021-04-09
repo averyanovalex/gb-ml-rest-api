@@ -57,8 +57,11 @@ API: flask
 $ git clone https://github.com/averyanovalex/gb-ml-rest-api
 ```
 #### Обучаем и сохраняем модель
+
 Скачиваем датасет (по ссылке выше или свой)
+
 Обучем в тетрадке /jupiter/training_model.ipynb, сохраняем обученную модель (этот каталог нужно будет указать позже).
+
 Имя файла: logreg_model.dill
 
 #### Собираем Docker контейнер
