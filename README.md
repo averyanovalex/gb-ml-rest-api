@@ -75,4 +75,4 @@ $ docker build -t avea/gb_docker_ml_flask_rest_api .
 $ docker run -d -p 8180:8180 -p 8181:8181 -v <your_local_path_to_pretrained_models>:/app/app/models avea/gb_docker_ml_flask_rest_api
 ```
 
-#### Переходим на localhost:8181 или отправляем post-запросы на localhost:8180
+Переходим на localhost:8181 или отправляем post-запросы на localhost:8180
