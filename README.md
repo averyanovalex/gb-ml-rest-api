@@ -60,16 +60,15 @@ $ git clone https://github.com/averyanovalex/gb-ml-rest-api
 
 Скачиваем датасет (по ссылке выше или свой)
 
-Обучем в тетрадке /jupiter/training_model.ipynb, сохраняем обученную модель (этот каталог нужно будет указать позже).
+Обучем в тетрадке /jupiter/training_model.ipynb, сохраняем обученную модель (этот каталог нужно будет указать позже). Либо можно воспользоваться уже обученной моделью в папке: app/models
 
 Имя файла: logreg_model.dill
 
 #### Собираем Docker контейнер
-Переходим в каталог репозитория, создаем пустую папку /app/models (она будет монтироваться с локальным каталогом, где лежит обученная модель) и вызываем команду docker build
+Переходим в каталог репозитория и вызываем команду docker build
 
 ```
 $ cd gb-ml-rest-api
-$ mkdir app/models
 $ docker build -t avea/gb_docker_ml_flask_rest_api .
 ```
 
